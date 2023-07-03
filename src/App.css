@@ -1,0 +1,8 @@
+h1 {
+  display: grid;
+  text-align: center;
+  color: rgb(110, 109, 109);
+  margin-bottom: 50px;
+  padding-left: 10px;
+  text-decoration: underline;
+}

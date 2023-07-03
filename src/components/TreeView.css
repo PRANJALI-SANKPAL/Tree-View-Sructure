@@ -1,0 +1,57 @@
+.tree-view {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(300px, auto);
+  gap: 20px;
+}
+
+.rectangle {
+  position: relative;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.rectangle h4 {
+  position: absolute;
+  top: -30px;
+  left: -10px;
+  padding: 5px 10px;
+  margin: 0;
+  margin-bottom: 10px; 
+}
+
+.rectangle ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  max-height: 200px;
+}
+
+.rectangle li {
+  cursor: pointer;
+}
+
+.rectangle-group h4 {
+  color: red;
+}
+
+.rectangle-category h4 {
+  color: red;
+}
+
+.rectangle-subcategory1 h4 {
+  color: red;
+}
+
+.rectangle-subcategory2 h4 {
+  color: red;
+}
+
+
+@media (max-width: 722px) {
+  .tree-view {
+    grid-template-columns: 1fr; 
+  }
+}
